@@ -1,0 +1,11 @@
+producto = input("El nombre del producto: ")
+CU = int(input("El costo unitario CU: "))
+PVP = int(input("El precio de venta al público PVP: "))
+CUD = int(input("La cantidad de unidades disponibles: "))
+ganancia = int((PVP - CU) * CUD)
+
+print ("producto:"+ str(producto))
+print ("CU:""$"+ str(CU))
+print ("PVP:""$"+ str(PVP))
+print ("Unidades Disponibles:"+ str(CUD))
+print ("ganancia:""$" + str(ganancia))
